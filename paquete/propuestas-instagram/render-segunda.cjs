@@ -1,0 +1,3 @@
+const {chromium}=require('C:/Users/Lucas/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const path=require('path');const {pathToFileURL}=require('url');
+(async()=>{const browser=await chromium.launch({headless:true,channel:'msedge'});const page=await browser.newPage({viewport:{width:1080,height:1920},deviceScaleFactor:1});await page.goto(pathToFileURL(path.join(__dirname,'segunda-publicacion-referencia.html')).href);await page.evaluate(()=>document.fonts.ready);await page.locator('.post').screenshot({path:path.join(__dirname,'segunda-publicacion-referencia.png')});await browser.close()})();

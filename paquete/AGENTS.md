@@ -1,0 +1,18 @@
+# Wallet Flow · Contenido de Instagram
+
+Preferencia explícita del usuario, aplicable a todas las imágenes de Instagram que se generen en este proyecto:
+
+- Usar un lienzo vertical de celular, por defecto 1080 × 1920 px (9:16).
+- Concentrar el contenido principal (tarjeta, títulos, logos y elementos esenciales) en el centro del lienzo.
+- Dar aire generoso con fondo arriba, abajo y a ambos costados. No distribuir el contenido hasta los bordes del lienzo ni agrandarlo para llenar el alto.
+- Mantener toda la información esencial dentro de un área central que sobreviva a un recorte de vista previa. Como criterio conservador, usar el cuadrado central de 1080 × 1080 (y=420..1500), con margen lateral adicional. Es una regla interna de composición, no una garantía sobre todos los recortes de Instagram.
+- Excepción para los próximos carruseles: mantener los márgenes laterales actuales y permitir que el área central de contenido crezca verticalmente un 10% de su altura de referencia hacia arriba y otro 10% hacia abajo (20% adicional en total). Tomando como referencia el área central de 1080 px, el área disponible pasa a aproximadamente 1296 px de alto, centrada (y=312..1608 en un lienzo 1080 × 1920). Usar ese espacio cuando mejore la lectura; no estirar elementos ni llenar por obligación. Esta excepción prevalece sobre el cuadrado central anterior para carruseles y reduce el aire superior e inferior. Las publicaciones individuales conservan el criterio previo. No modificar retrospectivamente los carruseles ya entregados salvo pedido del usuario.
+- Conservar el estilo de la primera publicación aprobada: fondo verde de marca, tarjeta pequeña y texto simple con final en cursiva. Para esa pieza, agregar fondo y reducir/centrar el conjunto, sin introducir texto adicional.
+- No incluir «Fijado» ni iconos de chinche que simulen elementos de interfaz de Instagram.
+- Mantener archivos editables con texto y recursos separados, además del PNG final.
+- Distinguir dos estilos: las portadas de reels siguen «Tu tarjeta de sellos, en su celular»: un elemento visual protagonista (tarjeta, QR u otro recurso real o ilustración claramente conceptual) y un título breve, grande, con final en cursiva. No trasladarles el diseño editorial de carruseles con antetítulo, párrafo, separador y logo en el pie. Los carruseles conservan su estilo educativo editorial aprobado.
+- Para las próximas portadas de reels, explicar un poquito más qué muestra el video: usar un título algo más descriptivo o una sola línea breve de apoyo. Mantener poco texto, el elemento visual protagonista y el estilo de portada; no convertirla en una placa de carrusel. No modificar la portada naranja «Escaneá. Sumá sellos.» ya aprobada.
+- Alternar los fondos entre naranja #F99F00, crema #F7F4ED y verde #034B47 a medida que se entregan piezas, considerando el feed y las últimas entregas. Se admiten variaciones de composición con esa misma paleta; no inventar nuevos códigos. Registrar el color y tipo de cada nueva entrega en produccion/registro-visual.md. Priorizar una indicación de color del usuario sobre la alternancia. No recolorear logos.
+- Cada vez que se termine de generar un carrusel entero, entregar inmediatamente dos propuestas de descripción (caption) para la publicación, adaptadas a su contenido, con tono argentino y CTA apropiado. No esperar a que el usuario las pida. Evitar cifras, ofertas o condiciones no confirmadas.
+
+Paleta verificada: verde #034B47, crema #F7F4ED, naranja #F99F00. No redibujar ni recolorear los logos originales. Respetar los demás requisitos del brief del usuario, incluyendo vos argentino, funcionalidades reales y ausencia de estadísticas, clientes, precios o descuentos inventados.
